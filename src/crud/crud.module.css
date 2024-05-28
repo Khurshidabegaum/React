@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: white;
+}
+
+#nav>a{
+    color: white;
+    text-decoration: none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+#formpage{
+    height: 85.5vh;
+    width: 100%;
+    background-color: rgb(15, 16, 17);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#formpage>form{
+    height:320px;
+    width:300px;
+    border:2px solid white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px white;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    line-height: 45px;
+}
+
+#formpage>form>label{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#formpage>form>input
+{
+    background-color: rgb(6, 7, 8);
+    color: white;
+    height: 30px;
+    width: 80px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+#formpage>form>button
+{
+    height: 30px;
+    width: 100px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+#formpage>form>button:hover
+{
+    box-shadow: 0px 0px 10px white;
+    cursor: pointer;
+}
+
+#userpage{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+#userpage>div{
+        height: 220px;
+        width: 220px;
+        border:1px solid white;
+}
+#userpage>div>table>tr>td{
+    color: white;
+    padding: 17px;
+}
+#userpage>div>table>tr>td>button{
+    height: 20px;
+    width: 70px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    border-radius: 20px;
+    font-size: 10px;
+}
+
+h1{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}

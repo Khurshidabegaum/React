@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav{
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid gainsboro;
+    display: flex;
+    justify-content: center;
+}
+
+#nav>article{
+    height: 100%;
+    width: 90%;
+    border: 1px solid red;
+    display: flex;
+    }
+
+    #nav>article>.logo
+    {
+        height: 100%;
+        width: 30%;
+        background-color: aqua;
+        
+    }
+    #nav>article>.menu
+    {
+        height: 100%;
+        width: 40%;
+        border: red;
+        
+    }
+    #nav>article>.btn
+    {
+        height: 100%;
+        width: 30%;
+        background-color: yellow;
+    }
+
+    #logoBlock{
+        height: 100%;
+        width:100%;
+        display: flex;
+        align-items: center;
+    }

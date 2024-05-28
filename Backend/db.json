@@ -1,0 +1,22 @@
+{
+  "employee": [
+    {
+      "empName": "Afreen shirur",
+      "empSalary": "765444",
+      "empCompany": "ultimez",
+      "id": "8f06"
+    },
+    {
+      "id": "d07a",
+      "empName": "khur",
+      "empSalary": "876554",
+      "empCompany": "ultimez"
+    },
+    {
+      "id": "e861",
+      "empName": "maa",
+      "empSalary": "9876543221",
+      "empCompany": "ultimez"
+    }
+  ]
+}
